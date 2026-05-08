@@ -1,637 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="he" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>מסיבות סיום – חוויה שתישאר</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>מסיבות סיום – חוויה שתישאר</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- HERO -->
+		<section class="hero">
+			<p class="hero-eyebrow">התיאטרון של חמוטל · מסיבות סיום גן</p>
+			<h1>
+				כי הרגע שבו הם גדלים,
+				<br />
+				ראוי
+				<em> לחגיגה מהסרטים </em>
+			</h1>
+			<p class="hero-sub">
+				מופע סיום רגיש וחווייתי שבו הילדים הם הכוכבים, ההורים שותפים מלאים, והזיכרון נשאר מתוק
+				במיוחד.
+			</p>
+			<a href="#contact" class="btn-primary">
+				דברו איתי לפרטים
+				<span>←</span>
+			</a>
+			<div class="hero-scroll">גלילה</div>
+		</section>
 
-  :root {
-    --cream: #FAF7F2;
-    --warm-white: #FFFDF9;
-    --blush: #F2E3D5;
-    --dusty-rose: #D4A99A;
-    --terracotta: #B86F52;
-    --sage: #8FA882;
-    --sage-light: #D8E5D2;
-    --brown-soft: #6B4F3A;
-    --text-dark: #2C1F14;
-    --text-mid: #6B5C50;
-    --text-light: #9A8878;
-    --gold: #C9A96E;
-  }
+		<!-- ABOUT -->
+		<section class="section about-section">
+			<div class="about-grid reveal">
+				<div class="about-image-wrap">
+					<img src="assets/חמוטל.jpg" alt="חמוטל, יוצרת תיאטרון של חמוטל" class="about-img" />
+					<div class="about-img-deco"></div>
+				</div>
+				<div class="about-text">
+					<p class="section-label">מי אני</p>
+					<h2>
+					נעים מאוד, אני חמוטל<br />
+					</h2>
+					<p>
+						<strong>נעים מאוד, אני חמוטל</strong>
+כבעלת תיאטרון ויוצרת הדמות "סוזי הליצנית", אני מאמינה שכל סוף שנה הוא הזדמנות ליצור רגע קהילתי מגבש. אני משלבת בין עולם הבמה המקצועי לבין תוכן איכותי ומלא בצחוק בגובה העיניים.						<br />
+						<br />
+            במסיבות שלי, הילדים לא רק צופים – הם הכוכבים של הערב. יחד עם שיתוף פעולה פעיל של ההורים, אנחנו הופכים את טקס הפרידה לחגיגה צבעונית ומלאת אנרגיה, כזו שסוגרת את השנה בחיוך גדול ובטעם של עוד.
+					</p>
+				</div>
+			</div>
+		</section>
 
-  html { scroll-behavior: smooth; }
+		<!-- GALLERY -->
+		<section class="gallery-section">
+			<div class="gallery-inner">
+				<p class="section-label reveal">גלריה</p>
+				<h2
+					class="section-h2 reveal"
+					style="
+						font-family: 'Playfair Display', serif;
+						font-size: clamp(26px, 4vw, 40px);
+						font-weight: 400;
+						color: #2c1f14;
+						margin-bottom: 48px;
+					">
+					רגעים מהחגיגות שלנו
+				</h2>
 
-  body {
-    font-family: 'Assistant', sans-serif;
-    background: var(--cream);
-    color: var(--text-dark);
-    font-size: 17px;
-    line-height: 1.75;
-    overflow-x: hidden;
-  }
+				<div class="gallery-grid reveal">
+					<!-- tall left -->
+					<div class="gallery-item tall">
+						<div class="img-placeholder">
+							<img src="assets/JPGשיקומי תמונה .JPG" alt="" />
+						</div>
+					</div>
+					<!-- top middle -->
+					<div class="gallery-item">
+						<div
+							class="img-placeholder"
+							style="background: linear-gradient(135deg, #d5e6d0, #8fa882)">
+							<img src="assets/IMG_2554.JPG" alt="" />
+						</div>
+					</div>
+					<!-- top right -->
+					<div class="gallery-item">
+						<div
+							class="img-placeholder"
+							style="background: linear-gradient(135deg, #f2e3d5, #d4a99a)">
+							<img src="assets/גני תקשורת.jpg" alt="" />
+						</div>
+					</div>
+					<!-- bottom middle -->
+					<div class="gallery-item">
+						<div
+							class="img-placeholder"
+							style="background: linear-gradient(135deg, #ede5f5, #c0a0d8)">
+							<img src="assets/שיקומי 2.jpg" alt="" />
+						</div>
+					</div>
+					<!-- bottom right -->
+					<div class="gallery-item">
+						<div
+							class="img-placeholder"
+							style="background: linear-gradient(135deg, #faf0dc, #c9a96e)">
+							<img src="assets/jpgתמונה חמוטל ליצנית רגועה.jpg" alt="" />
+						</div>
+					</div>
+				</div>
 
-  /* ─── HERO ─── */
-  .hero {
-    min-height: 100vh;
-    background: var(--warm-white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 24px 60px;
-    position: relative;
-    overflow: hidden;
-  }
+				<p
+					style="
+						text-align: center;
+						font-size: 13px;
+						color: var(--text-light);
+						margin-top: 20px;
+						font-style: italic;
+					">
+				</p>
+			</div>
+		</section>
 
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -80px; right: -80px;
-    width: 340px; height: 340px;
-    border-radius: 50%;
-    background: var(--blush);
-    opacity: 0.45;
-    pointer-events: none;
-  }
-  .hero::after {
-    content: '';
-    position: absolute;
-    bottom: -60px; left: -60px;
-    width: 260px; height: 260px;
-    border-radius: 50%;
-    background: var(--sage-light);
-    opacity: 0.5;
-    pointer-events: none;
-  }
+		<!-- WHAT WE OFFER -->
+		<section class="offer-section">
+			<div class="offer-inner">
+				<div class="reveal">
+					<p class="section-label">מה כולל</p>
+					<h2
+						style="
+							font-family: 'Playfair Display', serif;
+							font-size: clamp(26px, 4vw, 40px);
+							font-weight: 400;
+							color: var(--text-dark);
+						">
+						הכל, מהרעיון ועד הניקיון
+					</h2>
+				</div>
+				<div class="offer-grid">
+					<div class="offer-card reveal">
+						<div class="offer-icon">⏱️</div>
+						<h3>45 דקות של קסם</h3>
+						<p>הפעלה מלאה ומתוזמנת בדיוק — לא שנייה ארוכה מדי ולא קצרה מדי. הכל זורם, הכל שמח.</p>
+					</div>
+					<div class="offer-card reveal" style="transition-delay: 0.1s">
+						<div class="offer-icon">🧳</div>
+						<h3>מזוודה עם הפתעות</h3>
+						<p>אביזרים, תחפושות ופריטים שיוצאים מהמזוודה אחד אחד — וכל פעם הילדים מתפוצצים מצחוק.</p>
+					</div>
+					<div class="offer-card reveal" style="transition-delay: 0.2s">
+						<div class="offer-icon">🤝</div>
+						<h3>הורים וילדים יחד</h3>
+						<p>משחקים משותפים שמחברים בין הורים לילדים — רגעים של שיתוף, צחוק וקרבה אמיתית.</p>
+					</div>
+					<div class="offer-card reveal" style="transition-delay: 0.3s">
+						<div class="offer-icon">🌱</div>
+						<h3>מותאם לצוות הגן</h3>
+						<p>כל הפעלה מגיעה עם התייחסות אישית לרוח הגן, לגננות ולאווירה המיוחדת של הקבוצה.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  .hero-eyebrow {
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--terracotta);
-    font-weight: 500;
-    margin-bottom: 20px;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.2s forwards;
-  }
+		<!-- TESTIMONIALS -->
+		<section class="testimonials-section">
+			<div class="testimonials-inner">
+				<h2 class="reveal">הורים מספרים</h2>
+				<div class="reviews-grid">
+					<div class="review-card reveal">
+						<div class="stars">
+							<span class="star">★</span><span class="star">★</span><span class="star">★</span
+							><span class="star">★</span><span class="star">★</span>
+						</div>
+						<p class="review-text">
+							לא האמנתי שמסיבה לגן יכולה להיות כל כך מרגשת. כל פרט היה מחושב, הילדים לא הפסיקו
+							לרקוד, ואני בכיתי מרוב שמחה.
+						</p>
+						<div class="review-author">
+							<div class="avatar av1">ש"ל</div>
+							<div class="author-info">
+								<strong>שירה לוי</strong>
+								<span>אמא לאיתי, גן "הפרחים"</span>
+							</div>
+						</div>
+					</div>
 
-  .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(38px, 7vw, 72px);
-    font-weight: 400;
-    line-height: 1.2;
-    color: var(--text-dark);
-    margin-bottom: 12px;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.4s forwards;
-  }
-  .hero h1 em {
-    font-style: italic;
-    color: var(--terracotta);
-  }
+					<div class="review-card reveal" style="transition-delay: 0.1s">
+						<div class="stars">
+							<span class="star">★</span><span class="star">★</span><span class="star">★</span
+							><span class="star">★</span><span class="star">★</span>
+						</div>
+						<p class="review-text">
+							כגננת, ראיתי הרבה חגיגות סיום. זו הייתה הראשונה שבה כל הורה בא אליי ואמר "תודה". כל
+							הכבוד על הטעם והמקצועיות.
+						</p>
+						<div class="review-author">
+							<div class="avatar av2">מ"כ</div>
+							<div class="author-info">
+								<strong>מיכל כהן</strong>
+								<span>גננת, עכו</span>
+							</div>
+						</div>
+					</div>
 
-  .hero-sub {
-    font-size: 19px;
-    color: var(--text-mid);
-    font-weight: 300;
-    max-width: 480px;
-    margin: 0 auto 40px;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.6s forwards;
-  }
+					<div class="review-card reveal" style="transition-delay: 0.2s">
+						<div class="stars">
+							<span class="star">★</span><span class="star">★</span><span class="star">★</span
+							><span class="star">★</span><span class="star">★</span>
+						</div>
+						<p class="review-text">
+							הזמנו אותה לסיום של הבת הגדולה, ועכשיו כבר קבענו תאריך לבן הקטן. פשוט אין כמוה — ראש
+							שקט מלא, ותוצאה שאי אפשר לשכוח.
+						</p>
+						<div class="review-author">
+							<div class="avatar av3">ר"א</div>
+							<div class="author-info">
+								<strong>רונית אברהם</strong>
+								<span>אמא לשניים, תל אביב</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  .btn-primary {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--terracotta);
-    color: #fff;
-    text-decoration: none;
-    padding: 16px 36px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Assistant', sans-serif;
-    letter-spacing: 0.03em;
-    transition: background 0.25s, transform 0.2s;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.8s forwards;
-  }
-  .btn-primary:hover { background: var(--brown-soft); transform: translateY(-2px); }
+		<!-- CTA / CONTACT -->
+		<section class="cta-section" id="contact">
+			<p class="section-label reveal">יצירת קשר</p>
+			<h2 class="reveal">
+				בואו נתחיל לתכנן<br /><em style="color: var(--dusty-rose); font-style: italic"
+					>את הרגע שלכם</em
+				>
+			</h2>
+			<p class="reveal">שלחו הודעה ואחזור אליכם תוך 24 שעות עם כל הפרטים.</p>
+			<a
+				href="https://wa.me/972501234567?text=היי!%20אשמח%20לשמוע%20פרטים%20על%20מסיבות%20סיום%20לגן"
+				class="btn-wa reveal"
+				target="_blank"
+				rel="noopener">
+				<svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+				</svg>
+				שלחו לי הודעה בוואטסאפ
+			</a>
+			<p
+				style="
+					margin-top: 20px;
+					font-size: 13px;
+					color: rgba(250, 247, 242, 0.35);
+					font-weight: 300;
+				"
+				class="reveal">
+				ניתן גם להתקשר ישירות · זמינה ראשון–שישי
+			</p>
+		</section>
 
-  .hero-scroll {
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-light);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    animation: fadeUp 1s ease 1.2s both;
-  }
-  .hero-scroll::after {
-    content: '';
-    width: 1px;
-    height: 32px;
-    background: var(--dusty-rose);
-    animation: scrollLine 1.6s ease-in-out infinite;
-  }
+		<footer>
+			<p>© 2024 · כל הזכויות שמורות לתיאטרון של חמוטל</p>
+		</footer>
 
-  /* ─── ABOUT ─── */
-  .section {
-    padding: 90px 24px;
-    max-width: 960px;
-    margin: 0 auto;
-  }
+		<script>
+			const observer = new IntersectionObserver(
+				entries => {
+					entries.forEach(e => {
+						if (e.isIntersecting) {
+							e.target.classList.add('visible')
+							observer.unobserve(e.target)
+						}
+					})
+				},
+				{ threshold: 0.12 },
+			)
 
-  .section-label {
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--sage);
-    font-weight: 600;
-    margin-bottom: 14px;
-  }
-
-  .section h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(28px, 4.5vw, 44px);
-    font-weight: 400;
-    color: var(--text-dark);
-    line-height: 1.25;
-    margin-bottom: 22px;
-  }
-
-  .section p {
-    color: var(--text-mid);
-    font-weight: 300;
-    max-width: 580px;
-    font-size: 18px;
-  }
-
-  /* ─── GALLERY ─── */
-  .gallery-section {
-    background: var(--blush);
-    padding: 80px 24px;
-  }
-  .gallery-inner {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .gallery-inner .section-label,
-  .gallery-inner h2 {
-    text-align: center;
-  }
-  .gallery-inner h2 { margin-bottom: 48px; }
-
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-  }
-
-  .gallery-item {
-    border-radius: 16px;
-    overflow: hidden;
-    aspect-ratio: 4/3;
-    background: var(--warm-white);
-    position: relative;
-  }
-  .gallery-item img {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.4s ease;
-  }
-  .gallery-item:hover img { transform: scale(1.04); }
-
-  .gallery-item.tall {
-    grid-row: span 2;
-    aspect-ratio: unset;
-  }
-
-  /* placeholder for when no real image */
-  .img-placeholder {
-    width: 100%; height: 100%;
-    background: linear-gradient(135deg, var(--blush) 0%, var(--dusty-rose) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255,255,255,0.7);
-    font-size: 36px;
-  }
-
-  /* ─── WHAT WE OFFER ─── */
-  .offer-section {
-    padding: 90px 24px;
-    background: var(--warm-white);
-  }
-  .offer-inner {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .offer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-    margin-top: 48px;
-  }
-  .offer-card {
-    padding: 28px 24px;
-    border: 1px solid rgba(180, 140, 120, 0.2);
-    border-radius: 16px;
-    background: var(--cream);
-    transition: box-shadow 0.2s, transform 0.2s;
-  }
-  .offer-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 32px rgba(100, 60, 30, 0.07);
-  }
-  .offer-icon {
-    font-size: 26px;
-    margin-bottom: 14px;
-    line-height: 1;
-  }
-  .offer-card h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--text-dark);
-    margin-bottom: 8px;
-  }
-  .offer-card p {
-    font-size: 15px;
-    color: var(--text-mid);
-    font-weight: 300;
-    line-height: 1.6;
-  }
-
-  /* ─── TESTIMONIALS ─── */
-  .testimonials-section {
-    padding: 90px 24px;
-    background: var(--cream);
-  }
-  .testimonials-inner {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  .testimonials-inner h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(26px, 4vw, 40px);
-    font-weight: 400;
-    color: var(--text-dark);
-    text-align: center;
-    margin-bottom: 52px;
-  }
-  .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-  }
-  .review-card {
-    background: var(--warm-white);
-    border-radius: 20px;
-    padding: 32px 28px;
-    border: 1px solid rgba(180, 140, 120, 0.15);
-    position: relative;
-  }
-  .review-card::before {
-    content: '"';
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    color: var(--blush);
-    line-height: 1;
-    position: absolute;
-    top: 14px;
-    right: 24px;
-    direction: ltr;
-  }
-  .stars {
-    display: flex;
-    gap: 3px;
-    margin-bottom: 14px;
-  }
-  .star { color: var(--gold); font-size: 16px; }
-  .review-text {
-    font-size: 16px;
-    color: var(--text-mid);
-    font-weight: 300;
-    line-height: 1.7;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-  }
-  .review-author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .avatar {
-    width: 40px; height: 40px;
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Assistant', sans-serif;
-    flex-shrink: 0;
-  }
-  .av1 { background: var(--sage-light); color: var(--sage); }
-  .av2 { background: var(--blush); color: var(--terracotta); }
-  .av3 { background: #EDE5F5; color: #8B6AAF; }
-  .author-info strong {
-    display: block;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text-dark);
-  }
-  .author-info span {
-    font-size: 13px;
-    color: var(--text-light);
-  }
-
-  /* ─── CTA ─── */
-  .cta-section {
-    background: var(--brown-soft);
-    padding: 90px 24px;
-    text-align: center;
-  }
-  .cta-section .section-label {
-    color: var(--dusty-rose);
-  }
-  .cta-section h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(28px, 5vw, 48px);
-    font-weight: 400;
-    color: var(--cream);
-    margin: 0 auto 16px;
-    max-width: 520px;
-    line-height: 1.25;
-  }
-  .cta-section p {
-    color: rgba(250, 247, 242, 0.65);
-    font-size: 17px;
-    font-weight: 300;
-    margin-bottom: 40px;
-  }
-  .btn-wa {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    background: #25D366;
-    color: #fff;
-    text-decoration: none;
-    padding: 18px 40px;
-    border-radius: 50px;
-    font-size: 17px;
-    font-weight: 600;
-    font-family: 'Assistant', sans-serif;
-    transition: background 0.25s, transform 0.2s;
-  }
-  .btn-wa:hover { background: #1fbb5a; transform: translateY(-2px); }
-  .wa-icon {
-    width: 22px; height: 22px;
-    fill: #fff;
-  }
-
-  /* ─── FOOTER ─── */
-  footer {
-    background: var(--text-dark);
-    color: rgba(250,247,242,0.4);
-    text-align: center;
-    padding: 28px 24px;
-    font-size: 13px;
-    font-weight: 300;
-  }
-
-  /* ─── ANIMATIONS ─── */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes scrollLine {
-    0%,100% { transform: scaleY(1); opacity: 0.5; }
-    50% { transform: scaleY(0.5); opacity: 1; }
-  }
-
-  .reveal {
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
-  .reveal.visible {
-    opacity: 1;
-    transform: none;
-  }
-
-  /* ─── RESPONSIVE ─── */
-  @media (max-width: 640px) {
-    .gallery-grid { grid-template-columns: 1fr 1fr; }
-    .gallery-item.tall { grid-row: auto; aspect-ratio: 4/3; }
-    .offer-grid { grid-template-columns: 1fr; }
-    .reviews-grid { grid-template-columns: 1fr; }
-  }
-</style>
-</head>
-<body>
-
-<!-- HERO -->
-<section class="hero">
-  <p class="hero-eyebrow">תיאטרון של חמוטל · מסיבות סיום גן</p>
-  <h1>כי הרגע הזה<br>ראוי ל<em>קסם אמיתי</em></h1>
-  <p class="hero-sub">חגיגות סיום מעוצבות ברגישות, שהילדים זוכרים — וההורים מצלמים בלי הפסקה.</p>
-  <a href="#contact" class="btn-primary">
-    דברו איתי לפרטים
-    <span>←</span>
-  </a>
-  <div class="hero-scroll">גלילה</div>
-</section>
-
-<!-- ABOUT -->
-<section class="section about-section">
-  <div class="about-grid reveal">
-    <div class="about-image-wrap">
-      <img src="assets/חמוטל.jpg" alt="חמוטל, יוצרת תיאטרון של חמוטל" class="about-img">
-      <div class="about-img-deco"></div>
-    </div>
-    <div class="about-text">
-      <p class="section-label">מי אני</p>
-      <h2>מסיבות שמרגישות<br>בדיוק כמו שרציתם</h2>
-      <p>אני חמוטל, ומתמחה ביצירת חגיגות סיום לגני ילדים — קטנות ומדויקות, בלי עומס ובלי כאב ראש. כל חגיגה מתוכננת עד לפרט האחרון: מהעיצוב ועד לחיוך על הפנים של כל ילד.</p>
-    </div>
-  </div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery-section">
-  <div class="gallery-inner">
-    <p class="section-label reveal">גלריה</p>
-    <h2 class="section-h2 reveal" style="font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,40px);font-weight:400;color:#2C1F14;margin-bottom:48px;">רגעים מהחגיגות שלנו</h2>
-
-    <div class="gallery-grid reveal">
-      <!-- tall left -->
-      <div class="gallery-item tall">
-        <div class="img-placeholder">
-          <img src="assets/JPGשיקומי תמונה .JPG" alt="">
-        </div>
-      </div>
-      <!-- top middle -->
-      <div class="gallery-item">
-        <div class="img-placeholder" style="background:linear-gradient(135deg,#D5E6D0,#8FA882);">
-                    <img src="assets/IMG_2554.JPG" alt="">
-
-        </div>
-      </div>
-      <!-- top right -->
-      <div class="gallery-item">
-        <div class="img-placeholder" style="background:linear-gradient(135deg,#F2E3D5,#D4A99A);">
-                    <img src="assets/גני תקשורת.jpg" alt="">
-
-        </div>
-      </div>
-      <!-- bottom middle -->
-      <div class="gallery-item">
-        <div class="img-placeholder" style="background:linear-gradient(135deg,#EDE5F5,#C0A0D8);">
-                    <img src="assets/שיקומי 2.jpg" alt="">
-
-        </div>
-      </div>
-      <!-- bottom right -->
-      <div class="gallery-item">
-        <div class="img-placeholder" style="background:linear-gradient(135deg,#FAF0DC,#C9A96E);">
-                    <img src="assets/jpgתמונה חמוטל ליצנית רגועה.jpg" alt="">
-
-        </div>
-      </div>
-    </div>
-
-    <p style="text-align:center;font-size:13px;color:var(--text-light);margin-top:20px;font-style:italic;">* ניתן להחליף את האיורים בתמונות אמיתיות מהחגיגות שלך</p>
-  </div>
-</section>
-
-<!-- WHAT WE OFFER -->
-<section class="offer-section">
-  <div class="offer-inner">
-    <div class="reveal">
-      <p class="section-label">מה כולל</p>
-      <h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,40px);font-weight:400;color:var(--text-dark);">הכל, מהרעיון ועד הניקיון</h2>
-    </div>
-    <div class="offer-grid">
-      <div class="offer-card reveal">
-        <div class="offer-icon">🎨</div>
-        <h3>עיצוב מותאם</h3>
-        <p>פלטת צבעים, שולחן ממתקים ועיצוב חלל שמרגיש כמו הגן שלכם.</p>
-      </div>
-      <div class="offer-card reveal" style="transition-delay:0.1s">
-        <div class="offer-icon">🎤</div>
-        <h3>הפעלה חוויתית</h3>
-        <p>פעילויות מותאמות גיל שגורמות לכל ילד לזרוח מאושר.</p>
-      </div>
-      <div class="offer-card reveal" style="transition-delay:0.2s">
-        <div class="offer-icon">🧁</div>
-        <h3>שולחן ממתקים</h3>
-        <p>קינוחים מעוצבים ומותאמים לנושא, שנראים כמו פינטרסט ומרגישים כמו בית.</p>
-      </div>
-      <div class="offer-card reveal" style="transition-delay:0.3s">
-        <div class="offer-icon">📷</div>
-        <h3>מתנות לזכרון</h3>
-        <p>כל ילד עוזב עם מזכרת קטנה ויפה שתישאר על המדף שנים.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials-section">
-  <div class="testimonials-inner">
-    <h2 class="reveal">הורים מספרים</h2>
-    <div class="reviews-grid">
-
-      <div class="review-card reveal">
-        <div class="stars">
-          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
-        </div>
-        <p class="review-text">לא האמנתי שמסיבה לגן יכולה להיות כל כך מרגשת. כל פרט היה מחושב, הילדים לא הפסיקו לרקוד, ואני בכיתי מרוב שמחה.</p>
-        <div class="review-author">
-          <div class="avatar av1">ש"ל</div>
-          <div class="author-info">
-            <strong>שירה לוי</strong>
-            <span>אמא לאיתי, גן "הפרחים"</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="review-card reveal" style="transition-delay:0.1s">
-        <div class="stars">
-          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
-        </div>
-        <p class="review-text">כגננת, ראיתי הרבה חגיגות סיום. זו הייתה הראשונה שבה כל הורה בא אליי ואמר "תודה". כל הכבוד על הטעם והמקצועיות.</p>
-        <div class="review-author">
-          <div class="avatar av2">מ"כ</div>
-          <div class="author-info">
-            <strong>מיכל כהן</strong>
-            <span>גננת, עכו</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="review-card reveal" style="transition-delay:0.2s">
-        <div class="stars">
-          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
-        </div>
-        <p class="review-text">הזמנו אותה לסיום של הבת הגדולה, ועכשיו כבר קבענו תאריך לבן הקטן. פשוט אין כמוה — ראש שקט מלא, ותוצאה שאי אפשר לשכוח.</p>
-        <div class="review-author">
-          <div class="avatar av3">ר"א</div>
-          <div class="author-info">
-            <strong>רונית אברהם</strong>
-            <span>אמא לשניים, תל אביב</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- CTA / CONTACT -->
-<section class="cta-section" id="contact">
-  <p class="section-label reveal">יצירת קשר</p>
-  <h2 class="reveal">בואו נתחיל לתכנן<br><em style="color:var(--dusty-rose);font-style:italic;">את הרגע שלכם</em></h2>
-  <p class="reveal">שלחו הודעה ואחזור אליכם תוך 24 שעות עם כל הפרטים.</p>
-  <a href="https://wa.me/972501234567?text=היי!%20אשמח%20לשמוע%20פרטים%20על%20מסיבות%20סיום%20לגן" class="btn-wa reveal" target="_blank" rel="noopener">
-    <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
-    שלחו לי הודעה בוואטסאפ
-  </a>
-  <p style="margin-top:20px;font-size:13px;color:rgba(250,247,242,0.35);font-weight:300;" class="reveal">ניתן גם להתקשר ישירות · זמינה ראשון–שישי</p>
-</section>
-
-<footer>
-  <p>© 2024 · כל הזכויות שמורות לתיאטרון של חמוטל</p>
-</footer>
-
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('visible');
-        observer.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.12 });
-
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-</script>
-</body>
+			document.querySelectorAll('.reveal').forEach(el => observer.observe(el))
+		</script>
+	</body>
 </html>
